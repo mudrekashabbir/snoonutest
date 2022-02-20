@@ -92,11 +92,12 @@ border-top:0px ;
 border: 1px solid rgba(174, 175, 184, 0.501961);
 box-sizing: border-box;
 border-radius: 10px;
+line-height: 1rem !important; 
 font-weight: 500;
 }
 .customdropdown .form-select{
     height: 50px !important;
-    padding-top: 17px !important;
+    padding-top: 15px !important;
     border-radius: 5px;
     padding-bottom: 15px !important;
 }
@@ -265,6 +266,7 @@ padding-left: 35px;
     }
 }
 @media (max-width:575px){
+    
 
 body{
     background-color: #fff;
@@ -322,6 +324,9 @@ body{
     .accordion-button:focus {
         border: 0px;
         box-shadow: none;
+      }
+      .form-select{
+          line-height: 25px;
       }
 
     h2.headingcls {

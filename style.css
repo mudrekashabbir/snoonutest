@@ -253,8 +253,12 @@ padding-left: 35px;
 }
 
 .mac-os .form-select{
-    line-height: 25px !important;
-    }
+    line-height: 30px !important;
+ }
+ .mac-os .username {
+    padding-top: 10px;
+ 
+}
 @media (min-width:576px){
     .collapse:not(.show) {
         display: block;

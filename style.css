@@ -262,7 +262,7 @@ padding-left: 35px;
     .collapse:not(.desktoptab) {
         display: none !important;
       }
-      .accordion-header button{
+      .accordion-header .accordion-button{
           pointer-events: none ;
       }
       .accordion-button::after{

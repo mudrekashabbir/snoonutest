@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Mudreka Test</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="fonts.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid px-4    ">
+            <div class="row headerarea align-items-center">
+                <div class="col ps-0">
+                    <h1 class="mb-0">Reviews & Ratings</h1>
+                </div>
+                <div class="col-sm-6 col-md-5 col-xl-4 px-0 px-xl-5 mt-4 mt-sm-0">
+                  <div class="form-floating">
+                    <select class="form-select" id="access" >
+                      <option selected>ABD Group > KFC</option>
+                    </select>
+                    <label for="access">Access</label>
+                  </div>
+                </div>
+            </div>
+            <div class="row statsarea my-3 align-items-center">
+              <div class="col-12 col-xl-8 pe-0 pe-xl-4">
+
+                <div class="row align-items-center whitebox me-0 px-3 px-sm-4 ">
+                  <div class="col py-2 py-sm-0" >
+                    
+                    <div class="row align-items-center">
+                      <div class="col-auto px-0">
+                        <h2 class="headingcls mb-0">Rating</h2> 
+                        <div class="col-12 d-sm-none negreview pe-1">
+                          <img src="Images/trending.svg" alt="trending" class="me-2" /> -0.35%
+                        </div>
+                      </div>
+                      <div class="col-auto negreview d-none d-sm-block">
+                        <img src="Images/trending.svg" alt="trending" class="me-2" /> -0.35%
+                      </div>
+                      <div class="col-auto overallrating">
+                        4.35
+                      </div>
+                      <div class="col-auto allreview">
+                        <p class="mb-0">98 Reviews</p>
+                        <img src="Images/stars-group.svg" alt="rating" />
+                      </div>
+                      <div class="col">
+                        <div class="row ratingsarea">
+                          <div class="col-auto">
+                              <img src="Images/rating-negative.png" alt="bad rating" />
+                              <span class="ps-1">Negative</span>
+                          </div>
+                          <div class="col-auto">
+                            <img src="Images/rating-average.png" alt="average rating" />
+                            <span class="ps-1">Average</span>
+                          </div>
+                          <div class="col-auto">
+                            <img src="Images/rating-good.png" alt="good rating"/>
+                            <span class="ps-1">Good</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-auto pe-0">
+                    <img src="Images/arrow.svg" alt="arrow" />
+                  </div>
+                </div>
+                 
+                 
+
+              </div>
+              <div class="col-12 col-xl-4 mt-3 mt-xl-0 whitebox px-3 px-sm-4">
+                <div class="row align-items-center py-2 py-sm-0">
+                  <div class="col">
+                    <div class="row align-items-center">
+                      <div class="col-auto pe-0">
+                        <h2 class="headingcls mb-0">No. of Reviews <span class="reviewcount ps-1">(98)</span></h2> 
+                      </div>
+                      <div class="col negreview">
+                        <div class="d-none d-sm-block"><img src="Images/trending.svg" alt="trending" class="me-2" /> <span>-0.35%</span></div>
+                      </div>
+                      <div class="col-12 d-sm-none negreview">
+                        <img src="Images/trending.svg" alt="trending" class="me-2 " /> -0.35%
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <img src="Images/arrow.svg" alt="arrow" />
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="row contentarea mb-3 mx-n3">
+                <div class="col">
+                    <div class="row ratingheading d-none d-sm-block">
+                        <div class="col  px-sm-4"><h2 class="mb-0 headingcls">Rating</h2></div>
+                    </div>
+                    
+                    <div class="row commentarea">
+                        <div class="col-12 col-xl-8  px-sm-4 commentareainner">
+                          <div class="row my-3 align-items-center d-sm-none">
+                            <div class="col-12">
+                              <h2 class="mb-4 mt-2 headingcls">Reviews</h2>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control searchfield" id="search" placeholder="Search">
+                            </div>
+                            <div class="col-auto ps-0 pe-4">
+                              <img src="Images/filtericon.svg"/>
+                            </div>
+                            
+                        </div>
+                            <div class="row my-3 align-items-center d-none d-sm-block">
+                                <div class="col-4 col-lg-3">
+                                  <div class="form-floating customdropdown">
+                                    <select class="form-select" id="starsfilter" >
+                                      <option value="1" selected>5 Star</option>
+                                      <option value="2">4 Star</option>
+                                      <option value="3">3 Star</option>
+                                      <option value="3">2 Star</option>
+                                      <option value="3">1 Star</option>
+                                    </select>
+                                    <label for="starsfilter">Filter by Stars</label>
+                                  </div>
+                                </div>
+                                <div class="col-4 col-lg-3">
+                                  <div class="form-floating customdropdown">
+                                    <select class="form-select" id="datefilter" >
+                                      <option selected>12/5/2021</option>
+                                    </select>
+                                    <label for="datefilter">Select Date</label>
+                                  </div>
+                                </div>
+                                <div class="col text-end">
+                                  <button class="custombtn">
+                                    Apply
+                                  </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 ">
+                                  <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingOne">
+                                        <div class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          <div class="col-12">
+                                            <div class="row  align-items-center p-relative">
+                                              <div class="col username"> Mohsin A.</div>
+                                              <div class="col-auto pe-0"><img src="Images/happy-stars.svg" alt="happyreact"/></div>
+                                              <div class="col-auto"><img src="Images/happy.svg" alt="happyreact"/></div>
+                                              <p class="commentdate mb-0">#00108 • 29 Aug 2020, 07:54 PM</p>
+                                              <div class="verifiedicon d-sm-none">
+                                                <img src="Images/checkmark.svg" alt="checkmark"/>
+                                              </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse desktoptab show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          The food packaging was perfect, I was impressed with how fast my order arrived, I felt I got great quality for the amount I paid, Food was delicious and surpassed my expectations                                            
+                                          <div class="verifiedicon mt-1 mt-lg-2 text-end d-none d-sm-block">
+                                            <img src="Images/checkmark.svg" alt="checkmark"/>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="headingTwo">
+                                        <div class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          <div class="col-12">
+                                            <div class="row  align-items-center p-relative">
+                                              <div class="col username"> Mohsin A.</div>
+                                              <div class="col-auto pe-0"><img src="Images/sad-stars.svg" alt="sadreact"/></div>
+                                              <div class="col-auto"><img src="Images/sad.svg" alt="sadreact"/></div>
+                                              <p class="commentdate mb-0">#00108 • 29 Aug 2020, 07:54 PM</p>
+                                              <div class="verifiedicon  d-sm-none">
+                                                <img src="Images/checkmark.svg" alt="checkmark"/>
+                                              </div>
+                                            </div>
+                                           
+                                          </div>
+                                        </div>
+                                      </h2>
+                                      <div id="collapseTwo" class="accordion-collapse collapse desktoptab" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          The food packaging was perfect, I was impressed with how fast my order arrived, I felt I got great quality for the amount I paid, Food was delicious and surpassed my expectations                                            
+                                          <div class="verifiedicon mt-1 mt-lg-2 text-end d-none d-sm-block">
+                                            <img src="Images/checkmark.svg" alt="checkmark"/>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 px-sm-4">
+                         <div class="row  mt-3">
+                           <div class="col-12 customerdetails">
+                              <h3>Customer Details:</h3>
+                              <p class="customername mb-0 pt-2">Paige G.</p>
+                              <p class="customertel mb-0">099 897 787 8448</p>
+                              <p class="customeraddress mb-3">B-112, 3rd Lane, Main St, Al Jubair Complex</p>
+                              <button  class="custombtn mt-2">
+                                Respond
+                              </button>
+                           </div>
+                         </div>
+                          <div class="row mt-4 mb-3 mb-xl-0 mt-xl-5">
+                            <div class="col-12 customerdetails">
+                                <h3 class="pb-0 mb-3">Order Logs</h3>
+                                <div class="row align-items-center orderlogs my-1">
+                                  <div class="col orderlogdata">#00108 • 29 Aug 2020</div>
+                                  <div class="col-auto"><button  class="viewmore">
+                                    VIEW
+                                  </button></div>
+                                </div>
+                                <div class="row align-items-center orderlogs my-1">
+                                  <div class="col orderlogdata">#00108 • 29 Aug 2020</div>
+                                  <div class="col-auto"><button  class="viewmore">
+                                    VIEW
+                                  </button></div>
+                                </div>
+                                <div class="row align-items-center orderlogs my-1">
+                                  <div class="col orderlogdata">#00108 • 29 Aug 2020</div>
+                                  <div class="col-auto"><button  class="viewmore">
+                                    VIEW
+                                  </button></div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

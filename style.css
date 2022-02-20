@@ -263,10 +263,10 @@ padding-left: 35px;
     top: 1px;
 }
 .mac-os .custombtn{
-    padding:17px 10px 7px ;
+    padding:17px 20px 7px ;
 }
 .mac-os .viewmore{
-    padding: 8px 15px 2px;
+    padding: 9px 15px 0px;
 }
 @media (min-width:576px){
     .collapse:not(.show) {

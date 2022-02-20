@@ -259,6 +259,15 @@ padding-left: 35px;
     padding-top: 10px;
  
 }
+.mac-os .customdropdown.form-floating > label{
+    top: 1px;
+}
+.mac-os .custombtn{
+    padding:17px 10px 7px ;
+}
+.mac-os .viewmore{
+    padding: 8px 15px 2px;
+}
 @media (min-width:576px){
     .collapse:not(.show) {
         display: block;

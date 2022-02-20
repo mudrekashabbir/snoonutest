@@ -251,6 +251,10 @@ padding-left: 35px;
     box-shadow: none;
     border: 1px solid #D4D5DE;
 }
+
+.mac-os .form-select{
+    line-height: 25px !important;
+    }
 @media (min-width:576px){
     .collapse:not(.show) {
         display: block;
@@ -371,8 +375,5 @@ body{
     }
 }
 
-@supports (-webkit-touch-callout: none) {
-    .form-select{
-        line-height: 25px;
-        }
-}
+
+  

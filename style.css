@@ -15,7 +15,7 @@ body{
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: 23px;
+line-heiht: 23px;
 letter-spacing: 0px;
 text-align: left;
 }
@@ -34,7 +34,7 @@ border-radius: 12px;
 }
 .overallrating{
     font-size: 32px;
-line-height: 53px;
+line-heiht: 53px;
 text-align: center;
 letter-spacing: -0.512px;
 font-weight: 700;
@@ -42,13 +42,13 @@ color: #090909;
 }
 .reviewcount{
     font-size: 16px;
-    line-height: 70px;
+    line-heiht: 70px;
 color: #090909;
 font-weight:400;
 }
 .negreview{
     font-size: 16px;
-    line-height: 70px;
+    line-heiht: 70px;
 color: #F25E60;
 }
 
@@ -62,7 +62,7 @@ h2.headingcls{
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 17px;
+line-heiht: 17px;
 letter-spacing: 0px;
 font-weight: 500;
 color: #090C2A;
@@ -74,7 +74,7 @@ width: 44px;
 }
 .ratingsarea span{
     font-size: 10px;
-line-height: 16px;
+line-heiht: 16px;
 color: rgba(0, 0, 0, 0.45098);
 }
 
@@ -125,7 +125,7 @@ border-radius: 36px;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 13px;
+line-heiht: 13px;
 color: #FFFFFF !important;
 padding: 11px 20px;
 text-decoration: none;
@@ -155,7 +155,7 @@ margin-bottom: 15px;
     border-radius: 12px !important;
     font-style: normal;
 font-size: 24px;
-line-height: 40px;
+line-heiht: 40px;
 padding-bottom: 0px;
 font-weight: 500;
 padding-top: 10px;
@@ -163,7 +163,7 @@ padding-top: 10px;
 .accordion-body{
     padding-top: 0px !important;
     font-size: 16px;
-line-height: 24px;
+line-heiht: 24px;
 padding-bottom: 10px;
 letter-spacing: -0.256px;
 
@@ -178,13 +178,13 @@ font-weight: 400;
 }
 .customerdetails h3{
     font-size: 16px;
-    line-height: 15px;
+    line-heiht: 15px;
     color: #050824;
     font-weight: 500;
 }
 .customername{
 font-size: 18px;
-line-height: 30px;
+line-heiht: 30px;
 
 color: #090909;
 font-weight: 500;
@@ -192,14 +192,14 @@ mix-blend-mode: luminosity;
 }
 .customertel{
 font-size: 18px;
-line-height: 30px;
+line-heiht: 30px;
 
 color: #5C5C5C;
 mix-blend-mode: luminosity;
 }
 .customeraddress{
  font-size: 16px;
-line-height: 25px;
+line-heiht: 25px;
 letter-spacing: -0.256px;
 color: #5C5C5C;
 }
@@ -229,7 +229,7 @@ box-shadow: none;
     position: relative;
 }
 .allreview{
-    line-height: 15px;
+    line-heiht: 15px;
 }
 .searchfield{
    
@@ -251,7 +251,7 @@ padding-left: 35px;
 }
 
 .mac-os .form-select{
-    line-height: 30px !important;
+    line-heiht: 30px !important;
  }
  .mac-os .username {
     padding-top: 10px;
@@ -299,7 +299,7 @@ body{
       }
 
       .reviewcount,.negreview{
-          line-height: 23px;
+          line-heiht: 23px;
       }
       .commentareainner{
           border: 0px;
@@ -314,7 +314,7 @@ body{
       }
       .overallrating {
         font-size: 27px;
-        line-height: 30px;
+        line-heiht: 30px;
         text-align: center;
       }
     .accordion-button::after{
@@ -341,12 +341,12 @@ body{
         box-shadow: none;
       }
       .form-select{
-          line-height: 25px;
+          line-heiht: 25px;
       }
 
     h2.headingcls {
         font-size: 15px;
-        line-height: 22px;
+        line-heiht: 22px;
     }
     .verifiedicon {
         position: absolute;
@@ -358,7 +358,7 @@ body{
     .accordion-item .accordion-button {
         font-size: 16px;
         padding: 12px 15px !important;
-        line-height: 20px;
+        line-heiht: 20px;
       }
       .accordion-item .accordion-button img{
           height: 15px;
@@ -371,7 +371,7 @@ body{
       }
     .accordion-body{
         font-size: 14px;
-        line-height: 18px;
+        line-heiht: 18px;
         padding:15px ;
     }
 }
